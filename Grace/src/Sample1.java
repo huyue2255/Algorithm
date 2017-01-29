@@ -12,7 +12,7 @@ class Sample1 {
 
 //        System.out.println(s.strStr("source", "r"));
         Sample1 s = new Sample1();
-        System.out.println("hello Grace");
+        System.out.println("hello Grace2");
         int test[] = {1, 2, 3};
         System.out.println(s.subsets(test));
     }
