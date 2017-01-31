@@ -30,10 +30,11 @@ public class FirstPosition {
                 end = mid;
             }else if(target < nums[mid]){
                 end = mid;
-            }else if(target > nums[mid]){
+            }else{
                 start = mid;
             }
         }
+
         if (nums[start] == target){
             return start;
         }
