@@ -10,9 +10,9 @@ public class FirstPosition {
 //        System.out.println(s.strStr("source", "r"));
         FirstPosition s = new FirstPosition();
 
-        int test[] = {1, 2, 3, 3, 4, 5, 10};
+        int test[] = {1, 2, 2, 4, 5, 5};
 
-        System.out.println(s.binarySearch(test,3));
+        System.out.println(s.binarySearch(test,2));
     }
 
 

@@ -20,7 +20,6 @@ class Subsets {
         System.out.println(s.subsets(test));
     }
 
-
     /**
      * @param nums: A set of numbers.
      * @return: A list of lists. All valid subsets.
